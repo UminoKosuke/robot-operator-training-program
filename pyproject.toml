@@ -1,0 +1,12 @@
+[project]
+name = "robot-operator-training-program"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lerobot-robot-ugo-pro",
+]
+
+[tool.uv.sources]
+lerobot-robot-ugo-pro = { git = "https://github.com/UminoKosuke/lerobot-robot-ugo-pro" }
